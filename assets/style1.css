@@ -1,0 +1,39 @@
+.start_about{
+ background: rgba(236, 241, 255, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+.ab_us{
+    font-size: 50px;
+    padding: 5px 0px 5px 30px;
+    border-left: 4px solid white;
+}
+.most_part{
+    padding-top: 150px;
+}
+.who_we{
+    font-size: 34px;
+    padding: 5px 0px 5px 30px;
+    border-left: 4px solid #e08a0a;
+    color: #666;
+}
+.sect{
+    padding-top: 80px;
+}
+@media all and (max-width:768px){
+    .ab_us{
+        font-size: 32px;
+        padding: 5px 0px 5px 30px;
+        border-left: 4px solid white;
+    }
+}
+
+p{
+    
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
