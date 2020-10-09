@@ -1,10 +1,13 @@
 <section class="footer pb-3 pt-5">
 <div class="container border-bottom pb-2">
 <div class="row">
-    <div class="col-lg-4 py-3 px-1">
-   <img class="border-bottom px-3 pb-3" src="../img/logo.png" alt="" style="width:180px">
+    <div class="col-sm-4  py-3 px-1">
+        <div id="footer-logo">
+        <img  class="border-bottom px-3 pb-3" src="../img/logo.png" alt="" style="width:180px">
+        </div>
+  
 
-    <div class="py-4 social_icons">
+    <div class="py-4 social_icons ">
 <a href="#" class="fb"><i class="fa fa-facebook"         aria-hidden  ="true"></i></a>
 <a href="#" class="link"><i class="fa fa-linkedin"       aria-hidden  ="true"></i></a>
 <a href="#" class="tw"><i class="fa fa-twitter"          aria-hidden  ="true"></i></a>
@@ -12,7 +15,7 @@
 </div>
 
     </div>
-    <div class="col-lg-3 py-3">
+    <div class=" col-sm-4 col-6 py-3">
     <h3>Important Links</h3>
     <ul class="list-unstyled pt-3">
         <li><a href="#">Link1</a></li>
@@ -21,16 +24,7 @@
         <li><a href="#">Link4</a></li> 
     </ul>
     </div>
-    <div class="col-lg-3 py-3 ">
-    <h3>Important Links</h3>
-    <ul class="list-unstyled pt-3">
-        <li><a href="#">Link1</a></li>
-        <li><a href="#">Link2</a></li>
-        <li><a href="#">Link3</a></li>
-        <li><a href="#">Link4</a></li> 
-    </ul>
-    </div>
-    <div class="col-lg-2 py-3">
+    <div class="col-sm-4 col-6 py-3 ">
     <h3>Important Links</h3>
     <ul class="list-unstyled pt-3">
         <li><a href="#">Link1</a></li>

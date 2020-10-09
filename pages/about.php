@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <?php include 'navbar.php'?>
+  <?php include'navbar.php'?>
 <section class="start_about">
 <div class="container ">
 <div class="row">
@@ -45,7 +45,7 @@ We've consistently organizing exam's for different coaching which are giving coa
 </p>
         </div>
         <div class="col-md-6 p-3" style="margin-bottom:80px">
-           <img src="../img/what.png" alt="" style="width:100%">
+           <img src="../img/pana.png" alt="" style="width:100%">
         </div>
 
         <div class="container flex-column-reverse">
@@ -64,7 +64,8 @@ We've consistently organizing exam's for different coaching which are giving coa
             </div>
             
             <div class="col-md-6 p-3 mb-4">
-            <img src="../img/we.png" alt="" style="width:100%">
+            <img src="../img/amico.png" alt="" style="width:100%">
+            
             </div>
             
         </div>
@@ -82,7 +83,7 @@ We've consistently organizing exam's for different coaching which are giving coa
 </p>
         </div>
         <div class="col-md-6 p-3" style="margin-bottom:80px">
-           <img src="../img/why.png" alt="" style="width:100%">
+           <img src="../img/cuate.png" alt="" style="width:100%">
         </div>
       </div>
     </div>

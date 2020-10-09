@@ -1,7 +1,4 @@
-<?php
 
-session_start();
-?>
 
     <div class="container-fluid navt" id="header">
 <nav class="navbar container">
@@ -25,17 +22,9 @@ session_start();
        </div>
             </div>
        </li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="./blog.php">Blog</a></li>
         <li><a href="./about.php">About</a></li>
-        <?php 
-            if(isset($_SESSION['username'])){
-                echo '<li><a  id="demo">'.$_SESSION['username'].'</a></li>';
-            }
-            else{
-                echo '<li><a href="account/" id="demo">Login</a></li>';
-            }
-
-        ?>
+        <li><a href="../account/" id="demo">Login</a></li>
         
         <!-- <li><a class="demo" id="demo" href="#"><i style="font-size:30px;top:8px;left:5px;position:absolute;padding-right:10px;" class="fa fa-bookmark" aria-hidden="true"></i> <span style="margin-left:15px">Book A Free Demo</span></a></li> -->
     </ul>
@@ -59,8 +48,8 @@ session_start();
        </div>
             </div>
    
-        <a href="./blog.php">About</a>
-        <a href="./about.php">Blog</a>
+        <a href="./about.php">About</a>
+        <a href="./blog.php">Blog</a>
         <a href="#">Login</a>
         
     </ul>

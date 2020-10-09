@@ -446,6 +446,17 @@ outline: none;
 }
 .social_icons{
     display: flex;
+    
+}
+@media all and (max-width:768px){
+    .social_icons{
+        display: flex;
+        justify-content: center;
+    }
+    #footer-logo{
+        display: flex;
+        justify-content: center;
+    }
 }
 .social_icons a{
     display: flex;
@@ -539,7 +550,7 @@ font-weight: 600;
 
 .footer{
 background-color:  #ECF1FF;
-;
+
 }
 
 .footer h3{
@@ -557,9 +568,7 @@ background-color:  #ECF1FF;
     color:#ecbd3b;
 }
 .counter_start{
-
-
-background: #407BFF;
+    background: #407BFF;
     /* background-color: rgb(77, 94, 255) ; */
     background-repeat: no-repeat;
     background-size: cover;
